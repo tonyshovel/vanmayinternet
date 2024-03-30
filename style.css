@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p#announce {
+    font-size: larger;
+    color: red;
+}
+
+p#announceResult {
+    font-size: larger;
+}
+
+.result {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.result img {
+    width: 100px;
+    height: 100px;
+
+    border: 1px solid black;
+    gap: 1rem;
+
+    box-shadow: 1px 1px 2px black;
+}
+
+button#roll{
+    padding: 0.8rem 1rem;
+
+    align-self: flex-end;
+
+    background-color: lightgreen;
+    border: none;
+    color: rgb(0, 0, 82);
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+button#roll:hover {cursor: pointer;}
+
+button#re-bid{
+    padding: 0.8rem 1rem;
+
+    align-self: flex-end;
+
+    background-color: lightgreen;
+    border: none;
+    color: rgb(0, 0, 82);
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+button#re-bid:hover {cursor: pointer;}
+
+.bid {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.img_bid img{
+    width: 90px;
+    height: 90px;
+    border: none;
+    transition: width 0.5s, height 0.5s;
+}
+
+.img_bid:hover {cursor: pointer;}
+
+.img_bid:hover img{
+    width: 100px;
+    height: 100px;
+}
+
+.img_bid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 120px;
+    height: 120px;
+
+    border: 1px solid black;
+
+    position: relative;
+}
+
+.count_bid {
+    position: absolute;
+
+    left: 5%;
+    top: 5%;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.caution {
+    align-self: flex-start;
+    margin-top: -3rem;
+    font-weight: bold;
+    font-size: 20px;
+}

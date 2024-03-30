@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Vận May Internet</title>
+</head>
+<body>
+
+    <div class="content">
+        <p id="announce"></p>
+        <p id="announceResult"></p>
+        <div class="result">
+            <img id="result_1" src="./assets/null.png" alt="Kết quả 1">
+            <img id="result_2" src="./assets/null.png" alt="Kết quả 2">
+            <img id="result_3" src="./assets/null.png" alt="Kết quả 3">
+        </div>
+        <button id="roll">Quay</button>
+        <div class="bid">
+            <div class="img_bid">
+                <p class="count_bid" id="bau">0</p>
+                <img src="./assets/bau.png" alt="Bầu">
+            </div>
+            <div class="img_bid">
+                <p class="count_bid" id="cua">0</p>
+                <img src="./assets/cua.png" alt="Cua">
+            </div>
+            <div class="img_bid">
+                <p class="count_bid" id="tom">0</p>
+                <img src="./assets/tom.png" alt="Tôm">
+            </div>
+            <div class="img_bid">
+                <p class="count_bid" id="ca">0</p>
+                <img src="./assets/ca.png" alt="Cá">
+            </div>
+            <div class="img_bid">
+                <p class="count_bid" id="huou">0</p>
+                <img src="./assets/huou.png" alt="Hươu">
+            </div>
+            <div class="img_bid">
+                <p class="count_bid" id="ga">0</p>
+                <img src="./assets/ga.png" alt="Gà">
+            </div>
+        </div>
+        <button id="re-bid">Đặt lại</button>
+        <div class="caution">
+            <p>Lưu ý:</p>
+            <p>- Số lần đặt ở một hình sẽ là số lần xuất hiện của các 'Hình' trên 'Kết quả</p>
+            <p>- Tổng số điểm đặt trong một lần, tối đa là 3</p>
+        </div>
+    </div>
+    
+    <script src="./js/main.js"></script>
+    <script src="./js/process.js"></script>
+    <script src="./js/init.js"></script>
+    <script src="./js/data.js"></script>
+
+</body>
+</html>
